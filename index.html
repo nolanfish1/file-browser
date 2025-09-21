@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Browser</title>
+  <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+  <main class="container">
+    <h1>File Browser</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Icon</th>
+          <th>File Name</th>
+          <th>Type</th>
+          <th>Size</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><i class="fa-solid fa-file-image"></i></td>
+          <td><a href="image.JPG">image.png</a></td>
+          <td>PNG</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td><i class="fa-solid fa-file-code"></i></td>
+          <td><a href="sample.html">sample.html</a></td>
+          <td>HTML</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td><i class="fa-solid fa-file-code"></i></td>
+          <td><a href="data.json">data.json</a></td>
+          <td>JSON</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td><i class="fa-solid fa-file-lines"></i></td>
+          <td><a href="notes.txt">notes.txt</a></td>
+          <td>Plain text</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td><i class="fa-solid fa-file-pdf"></i></td>
+          <td><a href="sample.pdf">sample.pdf</a></td>
+          <td>PDF</td>
+          <td>—</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Observations</h2>
+    <ul>
+      <li>Images open inline in the browser.</li>
+      <li>PDFs open in a built-in viewer.</li>
+      <li>JSON and TXT files show as raw text.</li>
+    </ul>
+  </main>
+</body>
+</html>
